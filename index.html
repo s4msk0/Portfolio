@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Samy Mefrouche</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicon/devicon@v2.16.0/devicon.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#experience">Expériences</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="menu-btn">
+        <div class="menu-btn-burger"></div>
+    </div>
+
+    <button class="theme-toggle-btn" id="theme-toggle" title="Changer de thème">
+        <span id="theme-icon">🌙</span>
+    </button>
+</nav>
+
+<header id="header" class="hero">
+    <div class="hero-content">
+        <h4>Bonjour, je suis</h4>
+        <h1>Samy MEFROUCHE</h1>
+        <h2>Étudiant en BTS CIEL</h2>
+        <p class="intro-text">
+            Passionné par le développement, le réseau et la cybersécurité.
+            En route vers l'expertise numérique après un parcours scientifique et comptable.
+        </p>
+        <div class="hero-btns">
+            <a href="#projects" class="btn">Voir mes projets</a>
+            <a href="#contact" class="btn-outline">Me contacter</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="about">
+        <h3 class="section-title">Mon Parcours</h3>
+        <div class="about-content">
+            <p>
+                Après avoir obtenu mon <strong>Baccalauréat général (Maths & SES)</strong> en 2023,
+                j'ai effectué une année en DCG (Comptabilité et Gestion). Ne trouvant pas ma place dans ce domaine,
+                j'ai pivoté vers ma véritable passion : l'informatique.
+            </p>
+            <p>
+                Aujourd'hui en <strong>BTS CIEL</strong> (Cybersécurité, Informatique et réseaux, Électronique),
+                je développe des compétences techniques pointues en développement web, administration réseau
+                et sécurité des systèmes.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience" class="dark-section">
+        <h3 class="section-title">Expériences Professionnelles</h3>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">Stage - 6 semaines</div>
+                <div class="timeline-content">
+                    <h4>Intervenant Support Informatique</h4>
+                    <h5>Hôpital Robert-Debré</h5>
+                    <p>
+                        Gestion du parc informatique, assistance aux utilisateurs, dépannage matériel et logiciel,
+                        et maintenance préventive au sein d'une structure hospitalière critique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h3 class="section-title">Projets Personnels</h3>
+        <div class="projects-grid">
+
+            <article class="project-card">
+                <div class="card-header">
+                    <i class="devicon-python-plain colored project-icon"></i>
+                    <h4>Password Checker</h4>
+                </div>
+                <p>
+                    Un outil de cybersécurité permettant de tester la robustesse d'un mot de passe
+                    et de vérifier s'il a été compromis dans des fuites de données connues.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/s4msk0/Psw_check" target="_blank" class="github-link">
+                        Voir sur GitHub
+                    </a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <div class="card-header">
+                    <i class="devicon-php-plain colored project-icon"></i>
+                    <h4>Keylogger</h4>
+                </div>
+                <p>
+                    Dispositif de surveillance enregistrant les frappes clavier pour l'analyse d'activité.
+                    Projet à but éducatif pour comprendre les mécanismes d'interception de données.
+                </p>
+                <div class="card-links">
+                    <a href="https://github.com/meli0dasH4ck3r/Advanced_Keylogger" target="_blank" class="github-link">
+                        Voir sur GitHub
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h3 class="section-title">Compétences Techniques</h3>
+        <div class="skills-wrapper">
+            <div class="skill-box">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-php-plain colored"></i>
+                <span>PHP</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-python-plain colored"></i>
+                <span>Python</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-mysql-original colored"></i>
+                <span>DBeaver</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-docker-plain colored"></i>
+                <span>Docker</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-linux-plain colored"></i>
+                <span>Linux</span>
+            </div>
+
+            <div class="skill-box">
+                <i class="devicon-vscode-plain colored"></i>
+                <span>VS Code</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h3 class="section-title">Me Contacter</h3>
+        <p>Mon profil vous intéresse ? N'hésitez pas à me contacter.</p>
+
+        <div class="contact-actions">
+            <a href="mailto:mefrouche03l@gmail.com" class="btn contact-btn">Envoyer un email</a>
+            <a href="tel:+33757585922" class="btn-outline contact-btn">M'appeler</a>
+        </div>
+
+        <div class="footer-links">
+            <a href="https://github.com/s4msk0" target="_blank">Mon GitHub</a>
+        </div>
+        <footer>
+            &copy; 2026 Samy Mefrouche - Portfolio
+        </footer>
+    </section>
+
+</main>
+
+<script>
+    // --- GESTION DU MENU MOBILE ---
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+    let menuOpen = false;
+
+    menuBtn.addEventListener('click', () => {
+        if(!menuOpen) {
+            menuBtn.classList.add('open');
+            navLinks.classList.add('mobile-active');
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            navLinks.classList.remove('mobile-active');
+            menuOpen = false;
+        }
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(n => n.addEventListener('click', () => {
+        menuBtn.classList.remove('open');
+        navLinks.classList.remove('mobile-active');
+        menuOpen = false;
+    }));
+
+    // --- GESTION DU MODE DARK/LIGHT ---
+    const themeToggleBtn = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+    const body = document.body;
+
+    themeToggleBtn.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+        if (body.classList.contains('light-mode')) {
+            themeIcon.textContent = '☀️';
+        } else {
+            themeIcon.textContent = '🌙';
+        }
+    });
+</script>
+
+</body>
+</html>
